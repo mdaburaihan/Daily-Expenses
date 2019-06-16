@@ -1,0 +1,24 @@
+.navbar-default .navbar-nav>li>a {
+    color: #faf0f0;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffd7d7;
+}
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #ffd7d7;
+    background-color: #993434;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 767px){
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+		height: 200px !important;
+	}
+}
